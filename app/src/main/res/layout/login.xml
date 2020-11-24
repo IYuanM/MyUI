@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="ANOROIO APP" />
+    </TableRow>
+    <TableRow>
+
+        <EditText
+            android:layout_width="398dp"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:selectAllOnFocus="true" />
+    </TableRow>
+    <TableRow>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:selectAllOnFocus="true"
+            />
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:layout_width="238dp"
+            android:layout_height="match_parent"
+            android:text="Cancel" />
+
+        <Button
+            android:layout_width="172dp"
+            android:layout_height="match_parent"
+            android:text="Sign in" />
+    </TableRow>
+
+</TableLayout>
