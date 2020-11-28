@@ -8,7 +8,8 @@
 被选中后的颜色。
 * 最后利用Toast组件显示选中后的提示信息。
 最后成果截图：
-
+![mage texxt](https://github.com/IYuanM/MyUI/blob/main/pictures/1.1.PNG)
+![mage texxt](https://github.com/IYuanM/MyUI/blob/main/pictures/1.2.PNG)
 ### 第二题：
 * 创建一个最普通的线性布局，添加一个触发对话框的按钮
 * 创建线性布局xml文件，需要添加ImaView加入对话框的头部图片，然后是两个文本输入组件，最后镶
@@ -18,16 +19,17 @@
 * 利用AlertDialog.Builder 对象上的 setView() 将布局添加到AlertDialog，绑定事件后，点击提
 示按钮即可弹出题目中的对话框。
 最后成果截图：
-
+![mage texxt](https://github.com/IYuanM/MyUI/blob/main/pictures/2.1.PNG)
 ### 第三题：
 * 首先最普通的线性布局显示测试内容
 * 直接在java类中添加Menu接口，以及实现类MenuItem，为每一个要求添加标价，被选中后根据标记做
 出相应即可。
 最后成果截图：
-
+![mage texxt](https://github.com/IYuanM/MyUI/blob/main/pictures/3.1.PNG)
 ### 第四题：
 * 首先创建和第一题类似的ListView以及一个带有题目中的小绿人的线性布局，然后利用SelectionAdapter
 将其注入到列表中，达到题目中的界面效果。
 * 调用ActionMode类实现界面顶部显示上下文菜单的效果，然后通过菜单实现类MenuItem绑定相应的事件最
 后达到题目中的效果。
 最后成果截图：
+![mage texxt](https://github.com/IYuanM/MyUI/blob/main/pictures/4.1.PNG)
